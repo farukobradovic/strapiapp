@@ -41,6 +41,17 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review",
+      "mappedBy": "blog_article"
     }
   }
 }

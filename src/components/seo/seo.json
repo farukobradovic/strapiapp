@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "SEO"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "hideFromSearchEngine": {
+      "type": "boolean",
+      "default": false
+    },
+    "index": {
+      "type": "boolean"
+    },
+    "follow": {
+      "type": "boolean"
+    }
+  }
+}
